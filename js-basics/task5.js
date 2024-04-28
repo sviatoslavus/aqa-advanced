@@ -18,9 +18,8 @@ console.log(`Area of Circle with radius ${radius} is ${areaOfCircleRounded}`);
 //5.3 Volume of cylinder
 {
     let radius = 6;
-    let width = 5;
-    let length = 4;
-    let volumeOfCylinder = Math.PI * Math.pow(radius, 2);
+    let height = 4;
+    let volumeOfCylinder = Math.PI * Math.pow(radius, 2) * height;
     let volumeOfCylinderRounded = volumeOfCylinder.toFixed(2)
-    console.log(`Volume of cylinder with radius of ${radius}, length of ${length}, and width of ${width} is ${volumeOfCylinderRounded}`);
+    console.log(`Volume of cylinder with radius of ${radius}, and height of ${height} is ${volumeOfCylinderRounded}`);
 }
