@@ -6,4 +6,4 @@ function isAdult(age){
 // else return false
 }
 console.log(isAdult(25)); // true
-console.log(isAdult(17)); // false
+console.log(isAdult(15)); // false
