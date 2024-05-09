@@ -15,11 +15,15 @@ try {
     console.log(divide(5,1)); // no error(5)
 } catch (error) {
     console.error(error.stack);
+} finally{
+    console.log("The job is done");
 }
 try {
     console.log(divide(5,0)); //Denominator is 0
 } catch (error) {
     console.error(error.stack);
+} finally{
+    console.log("The job is done");
 }
 try{
     console.log(divide("hello",1)); // One of the arguments is a string
