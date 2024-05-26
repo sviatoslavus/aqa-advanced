@@ -1,9 +1,11 @@
 import { EBook } from "./Ebook.js"
 import { Book } from "./Book.js";
 const book1 = new Book("It", "Steven King", 1986)
-const ebook1 = new EBook("Becoming", "Michelle Obama", 2018, "pdf")
 const book2 = new Book("The Prince", "Niccolò di Bernardo dei Machiavelli", 1532)
-const arr = [book1, ebook1, book2]
+const ebook1 = new EBook("Becoming", "Michelle Obama", 2018, "pdf")
+const ebook3 = new EBook("The Prince", "Niccolò di Bernardo dei Machiavelli", 1531, "pdf")
+
+const arr = [book2, ebook1, book1, ebook3]
 book1.printInfo()
 ebook1.printInfo()
 

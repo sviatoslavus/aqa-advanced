@@ -39,10 +39,9 @@ export class Book{
         console.log(printText);
     }
     static getOldestBook(arr) {
-        let oldestBook = 0
+        let oldestBook = arr[0]
         arr.forEach(element => {
-            oldestBook = element._publishYear
-            if(oldestBook > element) oldestBook = element._publishYear
+            if(oldestBook._publishYear > element._publishYear) oldestBook = element
         });
         return oldestBook;
     }
