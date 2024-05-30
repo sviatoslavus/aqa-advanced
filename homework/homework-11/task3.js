@@ -3,12 +3,13 @@ const baseUrl = 'https://swapi.dev/api/films/3'
 
 const residents = []
 
-const response = await fetch(baseUrl)
-const data = await response.json()
-const planets = await data.planets
+
 // console.log(planets);
-async function getResidents(){
+async function getResidents(url){
     try{
+        const response = await fetch(url)
+        const data = await response.json()
+        const planets = await data.planets
         for(const planet of planets){
             const responsePlanet = await fetch(planet)
             const planetData = await responsePlanet.json()
@@ -31,4 +32,4 @@ async function getResidents(){
     }
     
 }
-getResidents()
+getResidents(baseUrl)
