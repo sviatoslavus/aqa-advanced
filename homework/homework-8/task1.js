@@ -5,13 +5,13 @@ let negativeCount = 0;
 let zeroCount = 0;
 
 for (const i of numbers) {
-	if (i < 0) {
-		negativeCount++;
-	} else if (i > 0) {
-		positiveCount++;
-	} else {
-		zeroCount++;
-	}
+  if (i < 0) {
+    negativeCount++;
+  } else if (i > 0) {
+    positiveCount++;
+  } else {
+    zeroCount++;
+  }
 }
 console.log(`Кількість позитивних чисел:${positiveCount}`);
 console.log(`Кількість негативних чисел:${negativeCount}`);

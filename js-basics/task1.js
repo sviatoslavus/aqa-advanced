@@ -1,4 +1,4 @@
-let string1 = 'hello world';
+let string1 = "hello world";
 let age = 27;
 let isMotivated = true;
 let future = undefined;
