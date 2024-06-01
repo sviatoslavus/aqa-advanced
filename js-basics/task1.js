@@ -4,7 +4,6 @@ let isMotivated = true;
 let future = undefined;
 let foo = null;
 
-
 console.log(string1);
 console.log(age);
 console.log(isMotivated);

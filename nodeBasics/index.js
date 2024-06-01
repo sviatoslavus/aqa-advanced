@@ -1,3 +1,3 @@
 import chalk from "chalk";
 
-console.log(chalk.red('Hello', chalk.underline.bgBlue('world') + '!'));
+console.log(chalk.red("Hello", chalk.underline.bgBlue("world") + "!"));
